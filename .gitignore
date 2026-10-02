@@ -1,0 +1,25 @@
+# Supplemental/ is the tracked copy of the code and data (see Supplemental/Description.docx).
+# Everything below is either a duplicate of it or a by-product, so it stays out of git.
+
+# Duplicate notebooks — same code as Supplemental/Code/1_-4_
+SSingh_Paper_2_Data_Collection_PRAW.ipynb
+data_cleaning.ipynb
+VADER_sentiment.ipynb
+EMPATH_sentiment.ipynb
+
+# Earlier combined/exploratory draft, superseded by the four-notebook pipeline
+Code.ipynb
+
+# Rendered notebook exports; Supplemental/Code/ already stores the same outputs and figures
+*.html
+
+# Duplicate data folders in the project root — byte-identical to Supplemental/Data/
+# (leading slash keeps these from matching Supplemental/Data/ConservativesData/ etc.)
+/ConservativesData/
+/LiberalsData/
+
+# Zipped copy of Supplemental/
+Supplemental_Paper2.zip
+
+.ipynb_checkpoints/
+.DS_Store
